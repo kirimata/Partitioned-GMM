@@ -102,7 +102,7 @@ return(rho);
 finish rho;
 
 
-*Standard deviation for each correlation?;
+*Standard deviation for each correlation;
 start stddev(a,rsd) global(N,T);
 bm = shape(rsd,N);    		 * N x T;
 bdev = bm-j(N,1,1)*bm[:,];   * bdev N x T,   bm[:,] Col Mean is a row vector   1 x T - each row of bm minus column means;
